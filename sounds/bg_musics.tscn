@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://guef2xpwvjba"]
+
+[ext_resource type="Script" path="res://sounds/bg_musics.gd" id="1_26jlg"]
+[ext_resource type="AudioStream" uid="uid://b1k5n52fvwf6r" path="res://sounds/712645__audiocoffee__epic-cinematic-adventure-loop-ver.wav" id="2_22mio"]
+[ext_resource type="AudioStream" uid="uid://d2oaeir85y4jj" path="res://sounds/712646__audiocoffee__epic-cinematic-adventure-short-version-2.wav" id="3_6vs61"]
+[ext_resource type="AudioStream" uid="uid://cpyjdsk2shfk8" path="res://sounds/721945__audiocoffee__epic-motivational-trailer-short-version.wav" id="4_ksx6m"]
+
+[node name="BgMusics" type="Node2D"]
+script = ExtResource("1_26jlg")
+
+[node name="BgMusic1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_22mio")
+volume_db = -18.0
+
+[node name="BgMusic2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_6vs61")
+volume_db = -18.0
+
+[node name="BgMusic3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_ksx6m")
+volume_db = -18.0

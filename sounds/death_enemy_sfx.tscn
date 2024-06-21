@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmauhqxvg276x"]
+
+[ext_resource type="AudioStream" uid="uid://77d7jv35fbdf" path="res://sounds/742279__sadiquecat__ashboy34-temple-block-lunarlander-1969.wav" id="1_v6x48"]
+
+[node name="DeathEnemySfx" type="AudioStreamPlayer"]
+stream = ExtResource("1_v6x48")
+volume_db = -12.0
